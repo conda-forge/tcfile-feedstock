@@ -1,5 +1,5 @@
 {% set name = "tcfile" %}
-{% set version = "2024.9" %}
+{% set version = "2024.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e00b12eb92210178ef5395d335d441f6207e3397ab4e17309b4fb68615ae6862
+  sha256: d17ce7e691d9bef514c85780363ddfeebd493be893c4c6cb26d2702c350a7880
 
 build:
   noarch: python
